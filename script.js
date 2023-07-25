@@ -15,7 +15,7 @@ app.post("/request", function(req, res){
         url: 'https://url-shortener-service.p.rapidapi.com/shorten',
         headers: {
           'content-type': 'application/x-www-form-urlencoded',
-          'X-RapidAPI-Key': '5878c6f844mshea9f3015c9955f8p14d5ecjsnc83d46c624de',
+          'X-RapidAPI-Key': ~,
           'X-RapidAPI-Host': 'url-shortener-service.p.rapidapi.com'
         },
         form: {
